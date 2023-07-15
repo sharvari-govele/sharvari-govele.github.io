@@ -95,27 +95,7 @@ color: #009900;
     display: block;
   }
   
-  @media only screen and (max-width:680px){
-    .dropdown-content{
-        display: none;
-        
-    }
-    
-    #navbar{
-        display: block;
-      
-        position: absolute;
-        right: 0;
-        top:0;
-    }
-    #navbar a{
-        text-decoration: none;
-        color: black;
-       margin: 5px;
-        font-size: 15px;  
-    }
  
-}
 section{
 height: auto;
 padding: 20px;
@@ -296,4 +276,27 @@ margin-bottom: 5px;
 }
 #contact{
     background: linear-gradient(120deg, #ccffa7 20%, #ffffff 100%);
+}
+@media only screen and (max-width:680px){
+    .dropdown-content{
+        display: none;
+        
+    }
+    
+    #navbar{
+        display: block;
+      
+        position: absolute;
+        right: 0;
+        top:0;
+    }
+    #navbar a{
+        text-decoration: none;
+        color: black;
+       margin: 5px;
+        font-size: 15px;  
+    }
+    .ai{
+    
+        margin-left: 5%;}
 }
