@@ -161,8 +161,8 @@ text-align:  center;
 }
 
 #l{
-    height: 60px;
-    width: 100px;
+    height: 40px;
+    width: 80px;
     padding: 5px;
     margin: 5px;
    
@@ -171,8 +171,8 @@ text-align:  center;
 }
 
 #l img{
-    height: 60px;
-    min-width: 100px;
+    height: 40px;
+    min-width: 80px;
     object-fit: contain;
    
 }
@@ -227,6 +227,7 @@ font-size: 16px;
 .skill{
     margin-top: 10px;
     padding: 5px;
+    
 }
 .skill p{
     background-color: #d3feb5;
@@ -236,6 +237,14 @@ font-size: 16px;
     padding: 6px;
     border-radius: 20px;
     margin: 2px;
+}
+.skill a{
+    padding: 8px;
+}
+.skill a img{
+
+    width: 60px;
+    height: 60px;
 }
 #projects{
     background: linear-gradient(30deg, #ccffa7 20%, #ffffff 100%);
