@@ -30,6 +30,7 @@ img{
     width: 40px;
     height: 40px;
     object-fit: fill;
+    mix-blend-mode: multiply;
 }
 #navbar{
    
