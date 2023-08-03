@@ -6,11 +6,12 @@
 }
 body {
   background-color: #ffffff;
+  max-width: 100%;
 }
 
 nav {
   position: fixed;
-  width: 100%;
+  width:  100%;
   background: linear-gradient(to left, #ccffa7 20%, #ffffff 100%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 50px;
@@ -88,15 +89,23 @@ img {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.menu{
+.menu{ border-bottom: 17px double black; 
+  border-top: 6px solid black; 
+  content:"";
+  height: 5px; 
+  width:30px;
+  float: right;
+  margin: 10px;
+  cursor: pointer;
   display: none;
+  
 }
 
 section {
   height: auto;
   padding: 20px;
   padding-top: 45px;
-  min-height: 90vh;
+  min-height: 100vh;
 }
 #welcome-section {
   height: 100vh;
@@ -312,14 +321,7 @@ input[type="submit"] {
   }
   .menu{ 
     display: block;
-      border-bottom: 17px double black; 
-      border-top: 6px solid black; 
-      content:"";
-      height: 5px; 
-      width:30px;
-      float: right;
-      margin: 10px;
-      cursor: pointer;
+     
   }
   .menu-content {
     display: none;
